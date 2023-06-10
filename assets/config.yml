@@ -2,8 +2,8 @@
 # Homepage configuration
 # See https://fontawesome.com/v5/search for icons options
 
-title: "Dimspace.xyz"
-subtitle: "the light at the end of the tunnely"
+title: "dimspace.xyz"
+subtitle: "the light at the end of the tunnel is dim"
 #logo: "logo.png"
 icon: "fas fa-lightbulb" # Optional icon
 
@@ -54,7 +54,7 @@ links:
     url: "https://lemmy.ml/"
     target: '_blank' 
   - name: "mastodon"
-    icon: "fab fa-pencil-square-o"
+    icon: "fab fa-pencil"
     url: "https://mastodonapp.uk"
     target: '_blank' 
   - name: "wikipedia"
