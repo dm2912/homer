@@ -50,11 +50,11 @@ links:
     url: "https://github.com"
     target: '_blank' 
   - name: "lemmy"
-    icon: "fab fa-pencil"
+    icon: "fab fa-edit"
     url: "https://lemmy.ml/"
     target: '_blank' 
   - name: "mastodon"
-    icon: "fab fa-pencil"
+    icon: "fab fa-pen"
     url: "https://mastodonapp.uk"
     target: '_blank' 
   - name: "wikipedia"
