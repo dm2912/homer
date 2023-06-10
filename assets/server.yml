@@ -12,9 +12,9 @@ message: ~
 
 # as we want to include a differente link here (so we can get back to home page), we need to replicate all links or they will be revome when overwriting the links field:
 links:
-  - name: "me"
+  - name: "me & stuff"
     icon: "fas fa-home"
-    url: "https://dimspace.xyz"
+    url: "https://dimspace.xyz#"
   - name: ""
     icon: ""
     url: ""
