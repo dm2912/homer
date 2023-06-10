@@ -45,6 +45,9 @@ colors:
 # Optional navbar
 
 links:
+  - name: "home server"
+    icon: "fab fa-github"
+    url: "https://dimspace.xyz#server"
   - name: "github"
     icon: "fab fa-github"
     url: "https://github.com"
