@@ -15,6 +15,10 @@ links:
   - name: "me"
     icon: "fas fa-home"
     url: "https://dimspace.xyz"
+  - name: ""
+    icon: ""
+    url: ""
+    target: '_blank' 
   - name: "github"
     icon: "fab fa-github"
     url: "https://github.com"
