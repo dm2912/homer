@@ -12,34 +12,14 @@ message: ~
 
 # as we want to include a differente link here (so we can get back to home page), we need to replicate all links or they will be revome when overwriting the links field:
 links:
-  - name: "Me"
+  - name: "me"
     icon: "fas fa-home"
     url: "https://dimspace.xyz"
   - name: "github"
     icon: "fab fa-github"
     url: "https://github.com"
     target: '_blank' 
-  - name: "lemmy"
-    icon: "fab fa-edit"
-    url: "https://lemmy.ml/"
-    target: '_blank' 
-  - name: "mastodon"
-    icon: "fab fa-pen"
-    url: "https://mastodonapp.uk"
-    target: '_blank' 
-  - name: "wikipedia"
-    icon: "fab fa-wikipedia-w"
-    url: "https://wikipedia.com"
-    target: '_blank' 
-  - name: "theguardian"
-    icon: "fas fa-newspaper"
-    url: "https://www.theguardian.com/uk"
-    target: '_blank' 
-  - name: "yougov"
-    icon: "fas fa-poll-h"
-    url: "https://yougov.co.uk"
-    target: '_blank' 
-
+    
 services:
   - name: "Home Server"
     icon: "fas fa-server"
