@@ -53,11 +53,11 @@ links:
     url: ""
     target: '_blank' 
   - name: "lemmy"
-    icon: "fas fa-pen"
+    icon: "fas fa-portrait"
     url: "https://lemmy.ml/"
     target: '_blank' 
   - name: "mastodon"
-    icon: "fas fa-pen-alt"
+    icon: "fas fa-mastodon"
     url: "https://mastodonapp.uk"
     target: '_blank' 
   - name: "wikipedia"
