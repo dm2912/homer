@@ -45,7 +45,7 @@ colors:
 # Optional navbar
 
 links:
- - name: "github"
+  - name: "github"
     icon: "fab fa-github"
     url: "https://github.com"
     target: '_blank' 
