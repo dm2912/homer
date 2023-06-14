@@ -54,7 +54,7 @@ links:
     target: '_blank' 
   - name: "lemmy"
     icon: "fas fa-portrait"
-    url: "https://lemmy.ml/"
+    url: "https://lemmy.world/"
     target: '_blank' 
   - name: "mastodon"
     icon: "fas fa-mastodon"
@@ -95,7 +95,7 @@ services:
         logo: "assets/tools/lemmy.png"
         subtitle: "the decentralised 'reddit'"
         tag: "post"
-        url: "https://lemmy.ml/u/dimspace"
+        url: "https://lemmy.world/u/dimspace"
         target: '_blank' 
       - name: "Reddit"
         logo: "assets/tools/reddit.png"
