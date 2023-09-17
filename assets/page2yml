@@ -1,0 +1,79 @@
+---
+# Additional page configuration
+
+# Additional configurations are loaded using its file name, minus the extension, as an anchor (https://<mydashboad>#<config>). 
+# `config.yml` is still used as a base configuration, and all values here will overwrite it, so you don't have to re-defined everything
+
+
+subtitle: "home server apps and installs"
+
+# This overwrites message config. Setting it to empty to remove message from this page and keep it only in the main one:
+message: ~
+
+# as we want to include a differente link here (so we can get back to home page), we need to replicate all links or they will be revome when overwriting the links field:
+links:
+  - name: "me & stuff"
+    icon: "fas fa-home"
+    url: "https://dimspace.xyz#"
+  - name: ""
+    icon: ""
+    url: ""
+    target: '_blank' 
+  - name: "github"
+    icon: "fab fa-github"
+    url: "https://github.com"
+    target: '_blank' 
+    
+services:
+  - name: "Home Server"
+    icon: "fas fa-server"
+    items:
+      - name: "Nextcloud"
+        logo: "assets/tools/nextcloud.png"
+        subtitle: "my personal nextcloud server"
+        tag: "cloud"
+        tagstyle: "is-success"
+        url: "https://cloud.dimspace.xyz/"
+        target: '_blank' 
+      - name: "Searx"
+        logo: "assets/tools/searx.png"
+        subtitle: "private searching without tracking"
+        tag: "search"
+        tagstyle: "is-success"
+        url: "https://searx.dimspace.xyz/"
+        target: '_blank' 
+      - name: "Wordpress"
+        logo: "assets/tools/wordpress.png"
+        #icon: "fab fa-wordpress"
+        subtitle: "my self-hosted wordpress"
+        tag: "blog"
+        tagstyle: "is-success"
+        url: "https://blog.dimspace.xyz"
+        target: '_blank'
+  - name: "Server Admin"
+    icon: "fas fa-server"
+    items:
+      - name: "Virtualmin"
+        logo: "assets/tools/webmin.png"
+        subtitle: "server manager panel"
+        url: "http://192.168.1.248:10000/"
+        target: '_blank' 
+        tagstyle: "is-warning"
+        tag: "admin"
+  - name: "Useful Links"
+    icon: "fas fa-server"
+    items:
+      - name: "Mod Security"
+        logo: "assets/tools/modsecurity.png"
+        subtitle: "how to install on ubuntu"
+        tag: "security"
+        tagstyle: "is-danger"
+        url: "https://www.linuxbabe.com/security/modsecurity-apache-debian-ubuntu"
+        target: '_blank'
+      - name: "Fail 2 Ban"
+        logo: "assets/tools/fail2ban.png"
+        subtitle: "how to install on ubuntu"
+        tag: "security"
+        tagstyle: "is-danger"
+        url: "https://ubuntu.tutorials24x7.com/blog/how-to-install-fail2ban-on-ubuntu-20-04-lts"
+        target: '_blank'
