@@ -47,7 +47,7 @@ colors:
 links:
   - name: "home server"
     icon: "fas fa-home"
-    url: "https://dimspace.xyz#server"
+    url: "https://dimspace.xyz#page2"
   - name: ""
     icon: ""
     url: ""
