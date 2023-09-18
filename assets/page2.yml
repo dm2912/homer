@@ -50,6 +50,14 @@ services:
         tagstyle: "is-success"
         url: "https://blog.dimspace.xyz"
         target: '_blank'
+      - name: "Jellyfin"
+        logo: "assets/tools/jellyfin.png"
+        #icon: "fab fa-wordpress"
+        subtitle: "my media server"
+        tag: "blog"
+        tagstyle: "is-success"
+        url: "https://jelly.dimspace.xyz"
+        target: '_blank'
   - name: "Server Admin"
     icon: "fas fa-server"
     items:
