@@ -68,6 +68,13 @@ services:
         target: '_blank' 
         tagstyle: "is-warning"
         tag: "admin"
+      - name: "PHP My Admin"
+        logo: "assets/tools/phpmyadmin.png"
+        subtitle: "database management"
+        url: "https://db.dimspace.xyz/"
+        target: '_blank' 
+        tagstyle: "is-warning"
+        tag: "admin"
   - name: "Useful Links"
     icon: "fas fa-server"
     items:
